@@ -57,7 +57,7 @@ $profileTweets = $profileModel->TweetsUser($userId);
     <header>
         <!-- bar laterale gauche -->
         <nav class="fixed left-0 top-0 h-full w-1/6 dark:bg-black border-r border-gray-400 flex flex-col items-center py-6 z-50 ">                
-            <img src="../Assets/logo/Black_Illustration_Ninja_Esport_Or_Gaming_Mascot_Logo_-3-removebg-preview.png" class="h-[100px] w-[100px] object-contain" alt="Logo">
+            <img src="../Assets/logo/TweetChain.png" class="h-[100px] w-[100px] object-contain" alt="Logo">
             <ul class="w-full flex flex-col items-center mt-20 space-y-4">
                 <li class="w-4/5 flex items-center text-xl md:text-lg lg:text-base xl:text-xl hover:text-blue-500 md:justify-start justify-center">
                     <a href="/Views/TimelineView.php"><i class="fa-solid fa-house text-xl md:text-lg lg:text-base xl:text-xl"></i></a>
@@ -113,10 +113,6 @@ $profileTweets = $profileModel->TweetsUser($userId);
                         <span class="hidden lg:inline-block ml-3">Déconnexion</span>
                     </button>
         </nav>
-        <!-- top bar fixe -->
-        <div class="fixed top-0 left-0 w-full h-16 dark:bg-black/50 backdrop-blur-md flex items-center justify-center px-40 z-40">
-            <h1 class="text-xl font-bold dark:text-white transition-all duration-700">WELCOME TO THE FUTURE 🥷🏿 NIGGACHAIN A.I 2.0</h1>
-        </div>
         <!-- bar laterale droite -->
         <div class="fixed right-0 top-0 h-full w-1/6 dark:bg-black border-l border-gray-400 p-2 z-50">
             <form action="SearchView.php" method="POST" class="space-y-4 w-full flex flex-col items-center">

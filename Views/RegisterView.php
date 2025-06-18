@@ -32,7 +32,7 @@ if (isset($_SESSION['error_message'])) {
 
         <div class="flex items-center justify-center ">
 
-            <img src="../Assets/logo/Black_Illustration_Ninja_Esport_Or_Gaming_Mascot_Logo_-3-removebg-preview.png" alt="">
+            <img src="../Assets/logo/TweetChain.png" alt="">
 
             <div class="ml-5 pt-8 pb-8 pl-10 pr-10 border rounded-xl shadow-xl shadow-blue-400 text-black">
                 <form id="Form_inscription" method="post" action="../Controllers/RegisterController.php">

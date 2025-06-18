@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['logout'])) {
     🌙
     </button>   
     <div class="flex items-center justify-center mt-20">
-        <img src="../Assets/logo/Black_Illustration_Ninja_Esport_Or_Gaming_Mascot_Logo_-3-removebg-preview.png" alt="">
+        <img src="../Assets/logo/TweetChain.png" alt="">
         <div class="ml-5 p-10 border rounded-xl shadow-xl shadow-blue-400">
             <form action="../Controllers/LoginController.php" method="POST" class="">
                 <label for="email"></label>
